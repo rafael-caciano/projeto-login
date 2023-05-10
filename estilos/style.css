@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*
+paleta de cores
+Verde: #49a09d
+Lilás: #5f2c82
+*/
+:root {
+    --cor01: #fff;
+    --cor02: #000;
+    --cor03: #49a09d;
+    --cor04: #5f2c82;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
