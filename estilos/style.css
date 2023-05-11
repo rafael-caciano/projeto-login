@@ -14,6 +14,51 @@ Lilás: #5f2c82
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+
+body, html {
+    background-color: aquamarine;
 }
 
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.701);
+    border: 1px solid rgba(0, 0, 0, 0.649);
+
+}
+
+div#imagem{
+    background-image: url('../imagens/pexels-eric-smart-2834188.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px ;
+   
+}
+
+div#formulario{
+    background-color: white;
+}
+#formulario h1{
+    text-align: center;
+    font-weight: bolder;
+}
+#formulario p {
+    padding: 10px;
+}
